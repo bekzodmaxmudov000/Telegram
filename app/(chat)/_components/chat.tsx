@@ -1,5 +1,4 @@
-import MessageCard from "@/components/cards/message.card";
-import ChatLoading from "@/components/loading/chat.loading";
+
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
@@ -15,7 +14,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import { ModeToggle } from "@/components/shared/mode-toggle";
+
 import { useTheme } from "next-themes";
 
 interface Props {

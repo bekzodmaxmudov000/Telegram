@@ -4,7 +4,7 @@ import { Button } from '../ui/button'
 import { ChevronDown, PlayCircle } from 'lucide-react'
 import { SOUNDS } from '@/lib/constants'
 import { cn } from '@/lib/utils'
-import useSound from 'use-sound';
+
 import useAudio from '@/hooks/use-audio'
 import { Separator } from '../ui/separator'
 import { Switch } from '../ui/switch'
